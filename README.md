@@ -1,7 +1,7 @@
 About fps-nbconvert
 ===================
 
-Home: https://github.com/jupyter-server/jupyverse/plugins/nbconvert
+Home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/nbconvert
 
 Package license: BSD-3-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fps-nbconvert-f
 
 Summary: An FPS plugin for the nbconvert API
 
-Development: https://github.com/jupyter-server/jupyverse/plugins/nbconvert
+Development: https://github.com/jupyter-server/jupyverse/tree/main/plugins/nbconvert
 
 Current build status
 ====================
