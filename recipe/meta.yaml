@@ -1,5 +1,5 @@
 {% set name = "fps-nbconvert" %}
-{% set version = "0.0.33" %}
+{% set version = "0.0.34" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fps_nbconvert-{{ version }}.tar.gz
-  sha256: 2ecd2c052c572f66fdd7e6365da26425c5aa752b7d35f8aa19e7ad98514e9f96
+  sha256: b4c8c508489491402bba56c40440e0926d09cba1231f5284d7a63e571789f3b3
 
 build:
   noarch: python
