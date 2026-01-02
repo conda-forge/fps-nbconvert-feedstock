@@ -1,5 +1,5 @@
 {% set name = "fps-nbconvert" %}
-{% set version = "0.9.4" %}
+{% set version = "0.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fps_nbconvert-{{ version }}.tar.gz
-  sha256: 647ca432beb9d93bea2fa16652dea960c287c31bdc40e5f3eebd3943a7cb4ac2
+  sha256: efbd1fe7f2fccb4bb31aabdca10fc4f711c417296090c22881e83d352ee26bb4
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - uv-build
   run:
     - python >={{ python_min }}
-    - jupyverse-api >=0.12.0,<0.13.0
+    - jupyverse-api >=0.13.0,<0.14.0
     - nbconvert
 
 test:
