@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.10.1"
+  version: "0.10.2"
 
 package:
   name: fps-nbconvert
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-nbconvert/fps_nbconvert-${{ version }}.tar.gz
-    sha256: 32bf96974eba41da61c7a4608fc3f5fb467e456f23621f09d36570d7ee0485b3
+    sha256: be59fef0013035c65d3b76d584eb469a1b20a180f2eda714dded4304f0be1ed7
 
 build:
   noarch: python
